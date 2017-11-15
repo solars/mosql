@@ -109,7 +109,7 @@ module MoSQL
                 else
                   'TEXT'
                 end
-              column '_extra_props', type
+              column 'data', type
             end
           end
         end
